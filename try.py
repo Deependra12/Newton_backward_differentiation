@@ -34,6 +34,7 @@ while(flag ==0):
         if ((abs(num-x[i])) <0.0001):
             print(i)
             index = i
+            print(index)
             flag = 1
                 
         
@@ -53,9 +54,13 @@ for i in range(0,n):
 h = x[1] - x[0]
 print(h)
     
-    
+
+print(index)
+x=1
 for i in range(1,index+1):
-    term = pow(y[index][i], i) / i
+    print(y[index] [i])
+    term =(y[index][i])/x
+    x=x+1
     sum = sum + term
          
 
